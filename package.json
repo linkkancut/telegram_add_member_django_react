@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "yarn start_backend & yarn start_frontend",
+    "start_backend": "source projectenv/bin/activate  &&  python backend/manage.py runserver",
+    "start_frontend": "cd frontend/ && yarn start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
+}
